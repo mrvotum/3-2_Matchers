@@ -1,0 +1,35 @@
+{
+  "name": "3-2_-matchers",
+  "version": "1.0.0",
+  "description": "3_lesson 2_task",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslin .",
+    "start": "live-server src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrvotum?tab=repositories"
+  },
+  "keywords": [
+    "Netology"
+  ],
+  "author": "Vladimir",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.15.0",
+    "jest": "^23.6.0",
+    "live-server": "^1.2.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.2.5"
+  }
+}
